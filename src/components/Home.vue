@@ -38,7 +38,7 @@ getDocs(notesCollection).then(snapShot =>{
         documents.push({...doc.data(),id:doc.id})
     })
     notes.value=documents;
-    console.log(notes.value)
+    // console.log(notes.value)
 
 })
 </script>
